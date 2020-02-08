@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="subpage">
+  {{partial "subheaderimg" .}}
+  {{with .Params}}
+  <div class="ui container section">
+    <h1>{{.titel}}</h1>
+    <div class="ui two column stackable grid">
+      <div class="ui column">
+        <div class="content">
+          {{.content.adresselinks|safeHTML}}
+        </div>
+      </div>
+      <div class="ui column">
+        <div class="content">
+          {{.content.adresserechts}}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{end}}
+</div>
+{{ end }}

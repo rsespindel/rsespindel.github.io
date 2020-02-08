@@ -1,4 +1,5 @@
 +++
+layout = "bildergalerie"
 seo_description = ""
 titel = "Bildergalerie"
 titel_bild = "/uploads/2020/01/20/head_bildergalerie.jpg"

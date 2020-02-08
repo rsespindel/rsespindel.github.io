@@ -1,4 +1,5 @@
 +++
+layout="ersatzteile"
 seo_description = "Zahlreiche Spindeltypen von Chiron, Hurco, MTN und anderer Hersteller sind auf Lager oder im Austausch verfügbar. Selbstverständlich bieten wir Ihnen den dazugehörigen Ein- und Ausbauservice mit an."
 titel = "Spindel Ersatzteile - Spindel Austausch"
 titel_bild = "/uploads/2020/01/20/head_ET.jpg"

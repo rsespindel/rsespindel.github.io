@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="subpage">
+  {{partial "subheaderimg" .}}
+  {{with .Params}}
+  <div class="ui container section">
+    <h1>{{.titel}}</h1>
+  </div>
+  {{with .newsblock}}
+  <div class="newslist">
+    {{range .}}
+    <div>
+      <div class="ui mobile stackable reverse grid ui container">
+        <div class="ui nine wide column">
+          <img src="{{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}" alt={{.headline}}/>
+        </div>
+        <div class="ui seven wide column">
+          <h3>{{.headline}}</h3>
+          <div style="margin-bottom:1rem;">{{.content}}</div>
+          <a href="{{.buttonlink}}" target="_blank" class="rsebutton">{{.buttonbeschriftung}}</a>
+        </div>
+      </div>
+    </div>
+    {{end}}
+  </div>
+  {{end}}
+  {{end}}
+</div>
+{{ end }}

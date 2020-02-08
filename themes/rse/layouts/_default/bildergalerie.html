@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="subpage">
+  {{partial "subheaderimg" .}}
+  {{with .Params}}
+  <div class="ui container section">
+    <h1>{{.titel}}</h1>
+  </div>
+  <div id="gal" >
+    <div class="ui container section">
+      <div class="galw">
+        <div class="ui four column grid imggal doubling">
+          {{ range $x,$img := .bildergalerie }}
+          <div class="column imggalcol">
+            <img data-modal="imgg_home" data-idx="{{$x}}" class="simg"
+              src="{{partial "imgUrl" (dict "img" $img.bild "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_200" )}}" />
+              <div class="label">{{$img.headline}}</div>
+          </div>
+          {{end}}
+        </div>
+        <div class="ui modal small" id="modal_imgg_home">
+          <div class="content">
+            <ul id="gal_imgg_home" class="imggalslider">
+              {{ range $x,$img := .bildergalerie }}
+              <li>
+                <img
+                  src="{{partial "imgUrl" (dict "img" $img.bild "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_500" )}} " />
+                  
+              </li>
+              {{end}}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{end}}
+</div>
+{{ end }}

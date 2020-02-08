@@ -1,4 +1,5 @@
 +++
+layout="news"
 seo_description = "Umbausatz für Chiron Vielzahnspindeln auf 8,5KN Einzugskraft !! Motorpsindeln, Riemenspindeln"
 titel = "News"
 titel_bild = "/uploads/2020/01/20/head_news.jpg"
