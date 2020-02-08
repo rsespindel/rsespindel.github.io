@@ -108,9 +108,46 @@ header #hcontent #hcont ul li a {
   color: white!important;
 }
 @media (max-width: 720px) {
-  header .logo {
-    height: 60px;
-    margin-top: 0;
+  header #hcontent {
+    display: flex;
+    justify-content: space-between;
+  }
+  header #hcontent #hmenu {
+    display: none;
+  }
+  header #hcontent #hlogo {
+    width: 90px;
+    z-index: 99999;
+    position: relative;
+    margin: 0.5rem 0 0 0;
+  }
+  header #hcontent #hlogo img {
+    z-index: 99999;
+    width: 100px;
+  }
+  header #hcontent #hcont {
+    width: 100%;
+    padding: 50px 0 0.5rem 0;
+  }
+  header #hcontent #hcont ul {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  header #hcontent #hcont ul li {
+    padding-right: 2rem;
+    color: white;
+    font-size: 0.8rem;
+    margin: 0 0 0.5rem 0;
+    background-size: 1em!important;
+  }
+  header #hcontent #hcont ul li a {
+    color: white!important;
   }
 }
 header .logow {
@@ -162,16 +199,13 @@ header #headermenumobil {
     margin: 0 -1rem;
   }
   header #headermenumobil .headermenuitem {
-    width: 50%;
+    width: 100%;
     color: rgba(114, 114, 114);
     border: none;
     text-transform: uppercase;
     font-size: 1rem;
     line-height: 2rem;
     text-align: left;
-  }
-  header #headermenumobil .headermenuitem:nth-child(even) {
-    text-align: right;
   }
 }
 header #headermenu {
@@ -274,6 +308,12 @@ footer .footermenu a:last-child {
   padding: 0.5rem 2rem;
   display: inline-block;
 }
+.rsebutton_grey {
+  color: white;
+  background: rgba(114, 114, 114);
+  padding: 0.5rem 2rem;
+  display: inline-block;
+}
 .imggalcol img {
   width: 100%;
 }
@@ -285,6 +325,29 @@ footer .footermenu a:last-child {
 }
 .subheaderimg {
   height: 20vh;
+}
+.map {
+  margin-bottom: 1rem;
+}
+.map .column.map {
+  padding: 0!important;
+}
+.map .column.content {
+  padding: 2rem 2rem 2rem 4rem!important;
+  display: flex!important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.map .column.content h2 {
+  color: white;
+}
+.map .column.content .rsebutton_grey {
+  margin-top: 2rem;
+}
+.content.bluelight {
+  background-color: #44a9ff !important;
 }
 .content.kontakt p {
   line-height: 2em!important;
@@ -298,6 +361,9 @@ footer .footermenu a:last-child {
 .content.li2col ul {
   columns: 2;
   column-gap: 2rem;
+}
+.subpage.noimg {
+  padding: 4rem 0 2rem 0;
 }
 .subpage h1 {
   text-align: center;
@@ -324,6 +390,7 @@ footer .footermenu a:last-child {
   text-align: center;
   color: white;
   font-size: 2.2rem;
+  line-height: 1.4em;
   text-transform: uppercase;
   background: #0a4c85;
 }
@@ -365,6 +432,12 @@ footer .footermenu a:last-child {
 }
 #home #leist {
   padding: 4rem 0 2rem 0;
+  background-size: cover!important;
+}
+@media (max-width: 720px) {
+  #home #leist {
+    padding: 2rem 0;
+  }
 }
 #home #leist h2 {
   font-size: 1.6rem;

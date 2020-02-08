@@ -72,6 +72,7 @@ header{
     display:flex;
     justify-content: space-between;
     z-index:99999;
+    
     #hmenu{
       width:50%;
       padding:0.5rem 90px 0.5rem 0;
@@ -111,11 +112,49 @@ header{
       }
     }
   }
-  
-  .logo{
-    @media (max-width: 720px){
-      height:60px;
-      margin-top:0;
+  @media (max-width: 720px){
+
+    #hcontent{
+      display:flex;
+    justify-content: space-between;
+      
+      #hmenu{
+        display:none;
+      }
+      #hlogo{
+        width:90px;
+        z-index:99999;
+        position:relative;
+        margin:0.5rem 0 0 0;
+        img{
+          z-index:99999;
+          width:100px;
+        }
+      }
+      #hcont{
+        width:100%;
+        padding:50px 0 0.5rem 0;
+        ul{
+          height:100%;
+          padding:0;
+          margin:0;
+          list-style-type: none;
+          display:flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-end;
+          li{
+            padding-right:2rem;
+            color:white;
+            font-size:0.8rem;
+            margin: 0 0 0.5rem 0;
+            background-size: 1em!important;
+            a{
+              color:white!important;
+            }
+          }
+        }
+      }
     }
   }
   .logow{
@@ -160,16 +199,13 @@ header{
         margin: 0 -1rem;
       }
       .headermenuitem{
-        width:50%;
+        width:100%;
         color:@grey;
         border:none;
         text-transform:uppercase;
         font-size:1rem;
         line-height:2rem;
         text-align:left;
-        &:nth-child(even){
-          text-align:right;
-        }
       }
     }
   }
@@ -277,6 +313,12 @@ footer{
   padding:0.5rem 2rem;
   display:inline-block;
 }
+.rsebutton_grey{
+  color:white;
+  background:@grey;
+  padding:0.5rem 2rem;
+  display:inline-block;
+}
 .imggalcol{
   img{
     width:100%;
@@ -291,7 +333,32 @@ footer{
 .subheaderimg{
   height:20vh;
 }
+.map{
+  margin-bottom:1rem;
+  .column{
+    &.map{
+      padding:0!important;
+    }
+    &.content{
+      padding:2rem 2rem 2rem 4rem!important;
+      display:flex!important;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color:white;
+      h2{
+        color:white;
+      }
+      .rsebutton_grey{
+        margin-top:2rem;
+      }
+    }
+  }
+}
 .content{
+  &.bluelight{
+    background-color: @blue!important;
+  }
   &.kontakt{
     p{
       line-height:2em!important;
@@ -311,6 +378,9 @@ footer{
   }
 }
 .subpage{
+  &.noimg{
+    padding:4rem 0 2rem 0;
+  }
   h1{
     text-align:center;
     color:@blue;
@@ -340,6 +410,7 @@ footer{
     text-align:center;
     color:white;
     font-size:2.2rem;
+    line-height:1.4em;
     text-transform: uppercase;
     background:@blue_dark;
   }
@@ -387,6 +458,10 @@ footer{
   }
   #leist{
     padding:4rem 0 2rem 0;
+    @media (max-width: 720px){
+      padding:2rem 0;
+    }
+    background-size:cover!important;
     h2{
       font-size:1.6rem;
       text-transform:uppercase;

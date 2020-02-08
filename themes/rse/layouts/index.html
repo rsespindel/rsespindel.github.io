@@ -57,7 +57,7 @@
   <div id="gal">
     <h2>{{.Params.titel_bildergalerie}}</h2>
     <div class="galw">
-      <div class="ui equal width grid imggal doubling">
+      <div class="ui equal width grid imggal doubling stackable">
         {{ range $x,$img := .Params.bildergalerie }}
         <div class="column imggalcol">
           <img data-modal="imgg_home" data-idx="{{$x}}" class="simg"
