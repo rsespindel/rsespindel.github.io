@@ -121,6 +121,11 @@ fields:
       labelField: 
     label: Leistung
   label: Leistungen
+- name: titel_bildergalerie
+  type: text
+  config:
+    required: false
+  label: Titel Bildergalerie
 - name: bildergalerie
   type: field_group_list
   fields:
