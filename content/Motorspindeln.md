@@ -1,5 +1,5 @@
 +++
-content = "<p>Generalüberholung, Reparatur und Wuchten bzw. Feinwuchten von Spindeln für folgende Hersteller</p><p>- LCM</p><p>- Gamfior</p><p>- Diebold</p><p>- Kessler</p><p>- Weiss</p><p>- Und viele weitere auf Anfrage</p>"
+content = "<p>Generalüberholung, Reparatur und Wuchten bzw. Feinwuchten von Spindeln für folgende Hersteller</p><ul><li><p>LCM</p></li><li><p>Gamfior</p></li><li><p>Diebold</p></li><li><p>Kessler</p></li><li><p>Weiss</p></li><li><p>Und viele weitere auf Anfrage</p></li></ul>"
 seo_description = "Generalüberholung, Reparatur und Wuchten bzw. Feinwuchten von Spindeln für folgende Hersteller  - LCM  - Gamfior  - Diebold  - Kessler  - Weiss  - Und viele weitere auf Anfrage"
 titel = "Motorspindeln"
 titel_bild = "/uploads/2020/01/20/head_motorspindeln.jpg"
