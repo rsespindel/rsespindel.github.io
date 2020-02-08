@@ -1,5 +1,6 @@
 +++
 karte = ""
+layout = "kontakt"
 seo_description = "R.S.E cnc Maschinenservice Gewerbering 9 D- 85659 Forstern, T : +49 (0)8124 4464049 F : +49 (0)8124 4464051 Mail : R.S.E@gmx.net Web : www.rse-cnc-maschinenservice.de"
 titel = "Kontakt"
 titel_bild = "/uploads/2020/01/20/head_news-1.jpg"
