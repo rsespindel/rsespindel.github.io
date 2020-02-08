@@ -1,0 +1,48 @@
+{{ define "main" }}
+<div class="subpage">
+  {{partial "subheaderimg" .}}
+  {{with .Params}}
+  <div class="ui container section">
+    <h1>{{.titel}}</h1>
+    <div class="content">
+      {{.content|safeHTML}}
+    </div>
+  </div>
+  {{with .ersatzteile}}
+  <div class="etlist">
+    {{range .}}
+    <div>
+      <div class="ui mobile stackable reverse grid ui container">
+        <div class="ui nine wide column">
+          {{partial "imgGal" .}}
+        </div>
+        <div class="ui seven wide column">
+          <h3>{{.name}}</h3>
+          {{.beschreibung}}
+        </div>
+      </div>
+    </div>
+    {{end}}
+  </div>
+  {{end}}
+  {{with .wuchten}}
+  <div class="grey">
+    <div class="ui container section">
+      <h2 class="bigblue" style="margin-bottom:2rem;">{{.headline}}</h2>
+      <div class="ui mobile stackable reverse grid ui container">
+        <div class="ui nine wide column">
+          {{partial "imgGalSmall" .bilderwuchten}}
+        </div>
+        <div class="ui seven wide column">
+          <div class="content">
+            {{.text|safeHTML}}
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  {{end}}
+  {{end}}
+</div>
+{{ end }}
