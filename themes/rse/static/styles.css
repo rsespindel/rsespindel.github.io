@@ -286,6 +286,9 @@ footer .footermenu a:last-child {
 .subheaderimg {
   height: 20vh;
 }
+.content.kontakt p {
+  line-height: 2em!important;
+}
 .content ul {
   margin: 0 0 1rem 0;
 }
