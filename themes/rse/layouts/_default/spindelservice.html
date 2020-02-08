@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div class="subpage">
+  {{partial "subheaderimg" .}}
+  {{with .Params}}
+  <div class="ui container section">
+    <h1>{{.titel}}</h1>
+    <div class="content">
+      {{.einleitungstext|safeHTML}}
+    </div>
+  </div>
+  <div class="grey">
+    <div class="ui container section">
+      <h2>{{.herstellerheadline}}</h2>
+      <div class="content li2col">
+        {{.text|safeHTML}}
+      </div>
+    </div>
+  </div>
+  <div class="ui container section">
+    <h2 class="bigblue">{{.spindelauswahlheader}}</h2>
+  </div>
+  <div class="grey">
+    <div class="ui container section">
+      <div class="ui three column stackable grid">
+        {{range .spindeln}}
+        <div class="ui column">
+          <img src="{{partial "imgUrl" (dict "img" .bild "params" "c_fill,h_900,w_1600,g_auto,f_auto/c_scale,h_200" )}}"
+            alt={{.headline}} />
+          <h3>{{.headline}}</h3>
+          <div class="txt">
+            {{.text}}
+          </div>
+        </div>
+        {{end}}
+      </div>
+    </div>
+  </div>
+  {{with .anfrage}}
+  <a href="{{.buttonlink}}" target="_blank">
+    <div class="bbutton">
+      {{.buttonbeschriftung}}
+    </div>
+  </a>
+  {{end}}
+  {{end}}
+</div>
+{{ end }}
