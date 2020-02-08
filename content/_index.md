@@ -1,5 +1,5 @@
 +++
-seo_description = "… aus Forstern Nähe München. Wir sind für Sie im Raum Bayern, Baden-Württemberg und Österreich unterwegs. Service und Reparaturen für eine vielzahl von Frässpindeln – Service für Motorspindeln. Wir verfügen über eine eigene Spindelwerkstatt, die Ihnen für eine schnelle und kostengünstige Reparatur Ihrer Hauptspindel zur Verfügung steht. Zahlreiche Spindeltypen von Chiron, Hurco, MTN und anderer Hersteller sind auf Lager oder im Austausch verfügbar. Selbstverständlich bieten wir Ihnen den dazugehörigen Ein- und Ausbauservice mit an."
+seo_description = "Aus Forstern Nähe München.. Wir sind für Sie im Raum Bayern, Baden-Württemberg und Österreich unterwegs. Service und Reparaturen für eine vielzahl von Frässpindeln – Service für Motorspindeln. Wir verfügen über eine eigene Spindelwerkstatt, die Ihnen für eine schnelle und kostengünstige Reparatur Ihrer Hauptspindel zur Verfügung steht. Zahlreiche Spindeltypen von Chiron, Hurco, MTN und anderer Hersteller sind auf Lager oder im Austausch verfügbar. Selbstverständlich bieten wir Ihnen den dazugehörigen Ein- und Ausbauservice mit an."
 title = "Home"
 type = "page"
 [leistungen]
