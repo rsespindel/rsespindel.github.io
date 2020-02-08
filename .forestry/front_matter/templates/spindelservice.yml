@@ -1,0 +1,100 @@
+---
+label: Spindelservice
+hide_body: false
+fields:
+- name: titelheader
+  type: include
+  config: {}
+  template: titel-image
+  label: Titelheader
+- name: einleitungstext
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Einleitungstext
+- name: herstellerheadline
+  type: text
+  config:
+    required: false
+  label: HerstellerHeadline
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Text
+- name: spindelauswahlheader
+  type: text
+  config:
+    required: false
+  label: SpindelauswahlHeader
+- name: reparaturablauf
+  type: field_group
+  config: {}
+  fields:
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: headline
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Text
+  label: reparaturablauf
+- name: spindeln
+  type: field_group_list
+  fields:
+  - name: bild
+    type: file
+    config:
+      maxSize: 250
+    label: bild
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Headline
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Spindeln
+- name: anfrage
+  type: field_group
+  config: {}
+  fields:
+  - name: buttonbeschriftung
+    type: text
+    config:
+      required: false
+    label: buttonbeschriftung
+  - name: buttonlink
+    type: text
+    config:
+      required: false
+    label: buttonlink
+  label: Anfrage
+pages:
+- content/Spindelservice.md

@@ -1,0 +1,34 @@
+---
+label: Bildergalerie
+hide_body: true
+fields:
+- name: header
+  type: include
+  config: {}
+  template: titel-image
+  label: header
+- name: bildergalerie
+  type: field_group_list
+  fields:
+  - name: bild
+    type: file
+    config:
+      maxSize: 250
+    label: bild
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Headline
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: bildergalerie
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
+pages:
+- content/Bildergalerie.md

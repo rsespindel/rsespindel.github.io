@@ -1,0 +1,58 @@
+---
+label: Ersatzteile
+hide_body: true
+fields:
+- name: titelheader
+  type: include
+  config: {}
+  template: titel-image
+  label: titelheader
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
+- name: content
+  type: field_group
+  config: {}
+  fields:
+  - name: bild
+    type: file
+    config:
+      maxSize: 250
+    label: Bild
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Text
+  label: Content
+- name: bildergallerie
+  type: field_group
+  config: {}
+  fields:
+  - name: bilder
+    type: field_group_list
+    fields:
+    - name: bild
+      type: file
+      config:
+        maxSize: 250
+      label: Bild
+    - name: beschriftung
+      type: text
+      config:
+        required: false
+      label: Beschriftung
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: bilder
+  label: Bildergallerie
+pages:
+- content/Ersatzteile.md

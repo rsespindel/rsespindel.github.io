@@ -1,0 +1,39 @@
+{{ define "main" }}
+{{$p:=.}}
+<div id="home">
+  <div id="slidercontainer">
+    <ul id="slider">
+      {{ range $x,$img := .Params.slider }}
+      <li>
+        <div class="slideritem"
+          style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}) center center no-repeat;">
+          <div class="ptxt ">
+            <a class="titles {{if eq $img.image_slide true}}full{{end}}"
+              href="{{with $img.titel_und_link.link}}{{relref $p . }}{{end}}">
+              <h4>{{$img.text|safeHTML}}</h4>
+            </a>
+            {{with $img.buttonlink}}
+            <a class="morebutton_slider" href="{{relref $p . }}">
+              <div class="txt">{{$img.buttonbeschriftung}}</div>
+            </a>
+            {{end}}
+          </div>
+        </div>
+      </li>
+      {{end}}
+    </ul>
+  </div>
+  {{with .Params.willkommen}}
+  <div id="intro">
+    <div class="ui container">
+      <h2>{{.subheadline}}</h2>
+      <h1>{{.headline}}</h1>
+      <div class="cont">
+        {{.text}}
+      </div>
+      <a class="rsebutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
+    </div>
+  </div>
+  {{end}}
+</div>
+{{ end }}

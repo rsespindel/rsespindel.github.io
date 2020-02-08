@@ -1,0 +1,91 @@
+---
+label: Motorspindels
+hide_body: true
+fields:
+- name: titelheader
+  type: include
+  config: {}
+  template: titel-image
+  label: Titelheader
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Content
+- name: ersatzteile
+  type: field_group_list
+  fields:
+  - name: bilder
+    type: image_gallery
+    config: {}
+    label: bilder
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: beschreibung
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Beschreibung
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Ersatzteile
+- name: wuchten
+  type: field_group
+  config: {}
+  fields:
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Headline
+  - name: bilderwuchten
+    type: image_gallery
+    config: {}
+    label: BilderWuchten
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Text
+  label: Wuchten
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
+- name: wuchtendetails
+  type: field_group_list
+  fields:
+  - name: bild
+    type: image_gallery
+    config: {}
+    label: bild
+  - name: beschreibung
+    type: text
+    config:
+      required: false
+    label: Beschreibung
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: wuchtendetails
+pages:
+- content/Motorspindeln.md

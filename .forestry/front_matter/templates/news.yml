@@ -1,0 +1,53 @@
+---
+label: News
+hide_body: true
+fields:
+- name: titelheader
+  type: include
+  config: {}
+  template: titel-image
+  label: Titelheader
+- name: newsblock
+  type: field_group_list
+  fields:
+  - name: bild
+    type: file
+    config:
+      maxSize: 250
+    label: Bild
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Headline
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Content
+  - name: buttonbeschriftung
+    type: text
+    config:
+      required: false
+    label: buttonbeschriftung
+  - name: buttonlink
+    type: text
+    config:
+      required: false
+    label: buttonlink
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Newsblock
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
+pages:
+- content/News.md
