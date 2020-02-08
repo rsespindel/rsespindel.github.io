@@ -277,6 +277,27 @@ footer .footermenu a:last-child {
   padding: 0.5rem 2rem;
   display: inline-block;
 }
+#home #leist {
+  padding: 4rem 0 2rem 0;
+}
+#home #leist h2 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  margin: 2rem 0 4rem 0;
+}
+#home #leist .column {
+  text-align: center;
+  color: #0a4c85;
+}
+#home #leist .column h3 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  color: #0a4c85;
+}
 #home #intro {
   background: rgba(114, 114, 114, 0.1);
   text-align: center;
@@ -340,9 +361,8 @@ footer .footermenu a:last-child {
   text-align: center;
 }
 #home #slider .slideritem .ptxt {
-  padding: 0;
+  padding: 0 50% 0 0;
   text-align: left;
-  width: 50%;
 }
 #home #slider .slideritem .ptxt .titles {
   display: flex;

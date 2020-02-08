@@ -7,7 +7,7 @@
       <li>
         <div class="slideritem"
           style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}) center center no-repeat;">
-          <div class="ptxt ">
+          <div class="ptxt ui container">
             <a class="titles {{if eq $img.image_slide true}}full{{end}}"
               href="{{with $img.titel_und_link.link}}{{relref $p . }}{{end}}">
               <h4>{{$img.text|safeHTML}}</h4>
@@ -32,6 +32,25 @@
         {{.text}}
       </div>
       <a class="rsebutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
+    </div>
+  </div>
+  {{end}}
+  {{with .Params.leistungen}}
+  <div id="leist"
+    style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_100" )}}) center center no-repeat;">
+    <div class="ui container">
+      <h2>{{.headline}}</h2>
+      <div class="ui three column stackable grid">
+        {{range .leistung}}
+          <div class="ui column">
+            <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100" )}}" alt={{.titel}}/>
+            <h3>{{.titel}}</h3>
+            <div class="txt">
+              {{.text}}
+            </div>
+          </div>
+        {{end}}
+      </div>
     </div>
   </div>
   {{end}}
