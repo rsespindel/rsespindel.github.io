@@ -10,7 +10,7 @@ text = "Wir beantworten gerne Ihre E-mail Anfrage so schnell wie möglich."
 titel = "Wir freuen uns auf SIE"
 [content]
 adresselinks = "<p>R.S.E cnc Maschinenservice</p><p class=\"p1\">Gewerbering 9</p><p class=\"p1\">D- 85659 Forstern</p>"
-adresserechts = "T : +49 (0)8124 4464049\n\nF : +49 (0)8124 4464051\n\nMail : R.S.E@gmx.net\n\nWeb : www.rse-cnc-maschinenservice.de"
+adresserechts = "<p>T : +49 (0)8124 4464049 <br>F : +49 (0)8124 4464051 <br>Mail : <a href=\"mailto:R.S.E@gmx.net\" title=\"\">R.S.E@gmx.net</a> Web : <a href=\"http://www.rse-cnc-maschinenservice.de\" title=\"\">www.rse-cnc-maschinenservice.de</a></p>"
 titel = "KONTAKT"
 [menu.main]
 name = "Kontakt"
