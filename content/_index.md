@@ -55,8 +55,8 @@ buttonlink = ""
 text = "Chiron FZ 28 Spindelservice"
 [[slider]]
 bild = "/uploads/2020/01/20/spindelservice_slide.jpg"
-buttonbeschriftung = "Mehr lesen"
-buttonlink = "http://www.google.de"
+buttonbeschriftung = ""
+buttonlink = ""
 text = "SPINDELSERVICE UND REPARATUREN FÜR MOTOR - UND RIEMENSPINDELN"
 
 +++
