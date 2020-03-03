@@ -50,7 +50,7 @@ bilder = ["/uploads/2020/01/20/Cincinnati Sabre 750.jpg", "/uploads/2020/01/20/H
 text = "Kunzmann"
 [[slider]]
 bild = "/uploads/2020/01/20/spindelservice_slide_chiron_fz28.jpg"
-buttonbeschriftung = "weiterlesen"
+buttonbeschriftung = ""
 buttonlink = ""
 text = "Chiron Spindelservice"
 [[slider]]
