@@ -1,5 +1,5 @@
 +++
-seo_description = "Hurco, Hedelius, Gloria, Sabre, Stama, Spindelservice, Bridgeport / Hardinge, Alzmetall"
+seo_description = "Hurco, Hedelius, Gloria, Sabre, Stama, Spindelservice, Bridgeport, Hardinge, Alzmetall"
 titel = "Bildergalerie"
 titel_bild = "/uploads/2020/01/20/head_bildergalerie.jpg"
 [menu.main]
