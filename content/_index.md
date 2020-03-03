@@ -52,7 +52,7 @@ text = "Kunzmann"
 bild = "/uploads/2020/01/20/spindelservice_slide_chiron_fz28.jpg"
 buttonbeschriftung = "weiterlesen"
 buttonlink = ""
-text = "Chiron FZ 28 Spindelservice"
+text = "Chiron Spindelservice"
 [[slider]]
 bild = "/uploads/2020/01/20/spindelservice_slide.jpg"
 buttonbeschriftung = ""
