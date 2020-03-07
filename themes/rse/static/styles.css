@@ -358,7 +358,8 @@ footer .footermenu a:last-child {
 .content ul li {
   margin-left: 1.2em;
 }
-.content.li2col ul {
+.content.li2col ul,
+.content.li2col ol {
   columns: 2;
   column-gap: 2rem;
 }
