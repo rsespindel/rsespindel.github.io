@@ -1,11 +1,41 @@
 +++
+layout = "bildergalerie"
 seo_description = "Hurco, Hedelius, Gloria, Sabre, Stama, Spindelservice, Bridgeport, Hardinge, Alzmetall"
 titel = "Bildergalerie"
 titel_bild = "/uploads/2020/01/20/head_bildergalerie.jpg"
-layout = "bildergalerie"
 [menu.main]
 name = "Bildergalerie"
 weight = 5
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Bridgeport-Hardinge2.jpeg"
+headline = "Bridgeport-Hardinge2"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Brother TC-S2DN.jpeg"
+headline = "Brother TC-S2DN"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Chiron FZ SK40 RTX.jpeg"
+headline = "Chiron FZ SK40 RTX"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Chiron FZ.jpeg"
+headline = "Chiron FZ"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Chiron FZ08.jpeg"
+headline = "Chiron FZ08"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Chiron FZ12 SK30-1.jpeg"
+headline = "Chiron FZ12 SK30"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Chiron FZ12 SK30.jpeg"
+headline = "Chiron FZ12 SK30"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Chiron FZ15 HSK63.jpeg"
+headline = "Chiron FZ15 HSK63"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Chiron FZ28 SK50-1.jpeg"
+headline = "Chiron FZ28 SK50-1"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Chiron FZ28 SK50.jpeg"
+headline = "Chiron FZ28 SK50"
 [[bildergalerie]]
 bild = "/uploads/2020/03/09/Chiron Kuppelspindel SK40 10,5T.jpeg"
 headline = "Chiron Kuppelspindel SK40 10,5T"
