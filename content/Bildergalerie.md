@@ -6,6 +6,24 @@ titel_bild = "/uploads/2020/01/20/head_bildergalerie.jpg"
 name = "Bildergalerie"
 weight = 5
 [[bildergalerie]]
+bild = "/uploads/2020/03/09/Hurco SK40 15T.jpeg"
+headline = "Hurco SK40 15T"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Hurco VM1.jpeg"
+headline = "Hurco VM1"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Hurco VMX.jpg"
+headline = "Hurco VMX"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Hurco VMX42i.jpeg"
+headline = "Hurco VMX42i"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Hurco VMX84.jpeg"
+headline = "Hurco VMX84"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Hurco-LCM Motorspindel.jpeg"
+headline = "Hurco-LCM Motorspindel"
+[[bildergalerie]]
 bild = "/uploads/2020/03/09/Johnford SK50.jpeg"
 headline = "Johnford SK50"
 [[bildergalerie]]
