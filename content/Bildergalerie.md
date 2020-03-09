@@ -6,6 +6,18 @@ titel_bild = "/uploads/2020/01/20/head_bildergalerie.jpg"
 name = "Bildergalerie"
 weight = 5
 [[bildergalerie]]
+bild = "/uploads/2020/03/09/Gamfior MSP.jpeg"
+headline = "Gamfior MSP"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Gloria SK40.jpeg"
+headline = "Gloria SK40"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Hedelius MC 50 Spindelkopf.jpeg"
+headline = "Hedelius MC 50 Spindelkopf"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Hedelius SK40 8T.jpeg"
+headline = "Hedelius SK40 8T"
+[[bildergalerie]]
 bild = "/uploads/2020/03/09/Hurco BMC30.jpeg"
 headline = "Hurco BMC30"
 [[bildergalerie]]
