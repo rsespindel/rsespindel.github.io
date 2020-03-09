@@ -2,6 +2,7 @@
 seo_description = "Hurco, Hedelius, Gloria, Sabre, Stama, Spindelservice, Bridgeport, Hardinge, Alzmetall"
 titel = "Bildergalerie"
 titel_bild = "/uploads/2020/01/20/head_bildergalerie.jpg"
+layout = "bildergalerie"
 [menu.main]
 name = "Bildergalerie"
 weight = 5
