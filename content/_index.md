@@ -30,6 +30,15 @@ headline = "IHR SPEZIALIST FÜR SPINDELN"
 subheadline = "WILLKOMMEN BEI RSE CNC MASCHINENSERVICE"
 text = "… aus Forstern Nähe München. Wir sind für Sie im Raum Bayern, Baden-Württemberg und Österreich unterwegs.\nService und Reparaturen für eine vielzahl von Frässpindeln – Service für Motorspindeln. Wir verfügen über eine eigene Spindelwerkstatt, die Ihnen für eine schnelle und kostengünstige Reparatur Ihrer Hauptspindel zur Verfügung steht. Zahlreiche Spindeltypen von Chiron, Hurco, MTN und anderer Hersteller sind auf Lager oder im Austausch verfügbar. Selbstverständlich bieten wir Ihnen den dazugehörigen Ein- und Ausbauservice mit an."
 [[bildergalerie]]
+bild = "/uploads/2020/03/09/kao_ming-1.jpg"
+text = "KAO MING SK50"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/hurco.jpg"
+text = "Hurco-LCM Motorspindel"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/kao_ming.jpg"
+text = "KAO MING SK50"
+[[bildergalerie]]
 bild = "/uploads/2020/03/09/chiron_fz15-hsk63.jpg"
 bilder = ["/uploads/2020/01/20/Cincinnati Sabre 750.jpg", "/uploads/2020/01/20/Hurco BMX-1.JPG", "/uploads/2020/01/20/Gloria SK40.JPG", "/uploads/2020/01/20/Chiron FZ18 Kuppelspindel.JPG", "/uploads/2020/01/20/Kunzmann.JPG"]
 text = "Chiron FZ15 HSK63"
