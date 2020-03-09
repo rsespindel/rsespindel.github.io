@@ -6,6 +6,15 @@ titel_bild = "/uploads/2020/01/20/head_bildergalerie.jpg"
 name = "Bildergalerie"
 weight = 5
 [[bildergalerie]]
+bild = "/uploads/2020/03/09/Gamfior Motorspindel 1.jpeg"
+headline = "Gamfior Motorspindel"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Gamfior Motorspindel 2.jpeg"
+headline = "Gamfior Motorspindel"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Gamfior Motorspindel.jpeg"
+headline = "Gamfior Motorspindel"
+[[bildergalerie]]
 bild = "/uploads/2020/03/09/Gamfior MSP.jpeg"
 headline = "Gamfior MSP"
 [[bildergalerie]]
