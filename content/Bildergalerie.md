@@ -6,6 +6,9 @@ titel_bild = "/uploads/2020/01/20/head_bildergalerie.jpg"
 name = "Bildergalerie"
 weight = 5
 [[bildergalerie]]
+bild = "/uploads/2020/03/09/Kunzmann.jpeg"
+headline = "Kunzmann"
+[[bildergalerie]]
 bild = "/uploads/2020/03/09/Leadwell.jpeg"
 headline = "Leadwell"
 [[bildergalerie]]
