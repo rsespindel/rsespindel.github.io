@@ -5,6 +5,7 @@ titel_bild = "/uploads/2020/01/20/head_bildergalerie.jpg"
 [menu.main]
 name = "Bildergalerie"
 weight = 5
+layout = "bildergalerie"
 [[bildergalerie]]
 bild = "/uploads/2020/03/09/Gamfior Motorspindel 1.jpeg"
 headline = "Gamfior Motorspindel"
