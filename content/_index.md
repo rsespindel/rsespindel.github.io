@@ -30,6 +30,9 @@ headline = "IHR SPEZIALIST FÜR SPINDELN"
 subheadline = "WILLKOMMEN BEI RSE CNC MASCHINENSERVICE"
 text = "… aus Forstern Nähe München. Wir sind für Sie im Raum Bayern, Baden-Württemberg und Österreich unterwegs.\nService und Reparaturen für eine vielzahl von Frässpindeln – Service für Motorspindeln. Wir verfügen über eine eigene Spindelwerkstatt, die Ihnen für eine schnelle und kostengünstige Reparatur Ihrer Hauptspindel zur Verfügung steht. Zahlreiche Spindeltypen von Chiron, Hurco, MTN und anderer Hersteller sind auf Lager oder im Austausch verfügbar. Selbstverständlich bieten wir Ihnen den dazugehörigen Ein- und Ausbauservice mit an."
 [[bildergalerie]]
+bild = "/uploads/2020/03/09/ycm.jpg"
+text = "YCM NSV 102A Ölnebel"
+[[bildergalerie]]
 bild = "/uploads/2020/03/09/kao_ming-1.jpg"
 text = "KAO MING SK50"
 [[bildergalerie]]
