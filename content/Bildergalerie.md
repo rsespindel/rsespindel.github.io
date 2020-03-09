@@ -6,8 +6,8 @@ titel_bild = "/uploads/2020/01/20/head_bildergalerie.jpg"
 name = "Bildergalerie"
 weight = 5
 [[bildergalerie]]
-bild = "/uploads/2020/03/09/Chiron StepTec-1.jpeg"
-headline = ""
+bild = "/uploads/2020/03/09/Chiron Kuppelspindel SK40 10,5T.jpeg"
+headline = "Chiron Kuppelspindel SK40 10,5T"
 [[bildergalerie]]
 bild = "/uploads/2020/03/09/Chiron StepTec.jpeg"
 headline = "Chiron StepTec"
