@@ -6,6 +6,15 @@ titel_bild = "/uploads/2020/01/20/head_bildergalerie.jpg"
 name = "Bildergalerie"
 weight = 5
 [[bildergalerie]]
+bild = "/uploads/2020/03/09/Johnford SK50.jpeg"
+headline = "Johnford SK50"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/KAO MING SK50.jpeg"
+headline = "KAO MING SK50"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Kao Ming.jpeg"
+headline = "Kao Ming"
+[[bildergalerie]]
 bild = "/uploads/2020/03/09/Kessler Motorspindel.jpeg"
 headline = "Kessler Motorspindel"
 [[bildergalerie]]
