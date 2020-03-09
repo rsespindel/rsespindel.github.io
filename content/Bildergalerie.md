@@ -6,6 +6,12 @@ titel_bild = "/uploads/2020/01/20/head_bildergalerie.jpg"
 name = "Bildergalerie"
 weight = 5
 [[bildergalerie]]
+bild = "/uploads/2020/03/09/Leadwell.jpeg"
+headline = "Leadwell"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/MT Cut Royal .jpeg"
+headline = "MT Cut Royal "
+[[bildergalerie]]
 bild = "/uploads/2020/03/09/Omlat.jpeg"
 headline = "Omlat"
 [[bildergalerie]]
