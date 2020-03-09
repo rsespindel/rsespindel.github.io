@@ -31,9 +31,6 @@ headline = "Chiron FZ08"
 bild = "/uploads/2020/03/09/Chiron FZ12 SK30-1.jpeg"
 headline = "Chiron FZ12 SK30"
 [[bildergalerie]]
-bild = "/uploads/2020/03/09/Chiron FZ12 SK30.jpeg"
-headline = "Chiron FZ12 SK30"
-[[bildergalerie]]
 bild = "/uploads/2020/03/09/Chiron FZ15 HSK63.jpeg"
 headline = "Chiron FZ15 HSK63"
 [[bildergalerie]]
