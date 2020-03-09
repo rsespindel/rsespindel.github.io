@@ -6,6 +6,9 @@ titel_bild = "/uploads/2020/01/20/head_bildergalerie.jpg"
 name = "Bildergalerie"
 weight = 5
 [[bildergalerie]]
+bild = "/uploads/2020/03/09/Kessler Motorspindel.jpeg"
+headline = "Kessler Motorspindel"
+[[bildergalerie]]
 bild = "/uploads/2020/03/09/Kunzmann.jpeg"
 headline = "Kunzmann"
 [[bildergalerie]]
