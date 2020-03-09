@@ -5,7 +5,30 @@ titel_bild = "/uploads/2020/01/20/head_bildergalerie.jpg"
 [menu.main]
 name = "Bildergalerie"
 weight = 5
-layout = "bildergalerie"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Chiron StepTec-1.jpeg"
+headline = ""
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Chiron StepTec.jpeg"
+headline = "Chiron StepTec"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Chiron_Stma Capto C50.jpeg"
+headline = "Chiron_Stma Capto C50"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Chiron-Stama HSK63.jpeg"
+headline = "Chiron-Stama HSK63"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Cincinnati Arrow.jpg"
+headline = "Cincinnati Arrow"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Cincinnati Sabre.jpeg"
+headline = "Cincinnati Sabre"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/CTR Northe.jpeg"
+headline = "CTR Northe"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Deckel Maho.jpeg"
+headline = "Deckel Maho"
 [[bildergalerie]]
 bild = "/uploads/2020/03/09/Gamfior Motorspindel 1.jpeg"
 headline = "Gamfior Motorspindel"
