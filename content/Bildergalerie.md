@@ -6,6 +6,9 @@ titel_bild = "/uploads/2020/01/20/head_bildergalerie.jpg"
 name = "Bildergalerie"
 weight = 5
 [[bildergalerie]]
+bild = "/uploads/2020/03/09/Hurco BMC30.jpeg"
+headline = "Hurco BMC30"
+[[bildergalerie]]
 bild = "/uploads/2020/03/09/Hurco SK40 15T.jpeg"
 headline = "Hurco SK40 15T"
 [[bildergalerie]]
