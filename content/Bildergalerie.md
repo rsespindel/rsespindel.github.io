@@ -6,7 +6,13 @@ titel_bild = "/uploads/2020/01/20/head_bildergalerie.jpg"
 name = "Bildergalerie"
 weight = 5
 [[bildergalerie]]
-bild = "/uploads/2020/03/09/AXA SK40.jpeg"
-headline = "AXA SK40"
+bild = "/uploads/2020/03/09/Spinner SK40 12T.jpeg"
+headline = "Spinner SK40 12T"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Stama HSK63.jpeg"
+headline = "Stama HSK63"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/YCM NSV 102A Ölnebel.jpeg"
+headline = "YCM NSV 102A Ölnebel"
 
 +++
