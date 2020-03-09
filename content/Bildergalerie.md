@@ -6,6 +6,15 @@ titel_bild = "/uploads/2020/01/20/head_bildergalerie.jpg"
 name = "Bildergalerie"
 weight = 5
 [[bildergalerie]]
+bild = "/uploads/2020/03/09/Omlat.jpeg"
+headline = "Omlat"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Sabre.jpeg"
+headline = "Sabre"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Sigma SK50.jpeg"
+headline = "Sigma SK50"
+[[bildergalerie]]
 bild = "/uploads/2020/03/09/SM.jpeg"
 headline = "SM"
 [[bildergalerie]]
