@@ -6,6 +6,9 @@ titel_bild = "/uploads/2020/01/20/head_bildergalerie.jpg"
 name = "Bildergalerie"
 weight = 5
 [[bildergalerie]]
+bild = "/uploads/2020/03/09/SM.jpeg"
+headline = "SM"
+[[bildergalerie]]
 bild = "/uploads/2020/03/09/Spinner SK40 12T.jpeg"
 headline = "Spinner SK40 12T"
 [[bildergalerie]]
