@@ -46,6 +46,11 @@ bild = "/uploads/2020/03/09/chiron_fz15-hsk63.jpg"
 bilder = ["/uploads/2020/01/20/Cincinnati Sabre 750.jpg", "/uploads/2020/01/20/Hurco BMX-1.JPG", "/uploads/2020/01/20/Gloria SK40.JPG", "/uploads/2020/01/20/Chiron FZ18 Kuppelspindel.JPG", "/uploads/2020/01/20/Kunzmann.JPG"]
 text = "Chiron FZ15 HSK63"
 [[slider]]
+bild = "/uploads/2020/03/09/slide_mt_cut_royal.jpg"
+buttonbeschriftung = ""
+buttonlink = ""
+text = "Spindel MT Cut Royal"
+[[slider]]
 bild = "/uploads/2020/03/09/slide_stama_hsk63.jpg"
 buttonbeschriftung = ""
 buttonlink = ""
