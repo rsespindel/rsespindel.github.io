@@ -7,6 +7,12 @@ titel_bild = "/uploads/2020/01/20/head_bildergalerie.jpg"
 name = "Bildergalerie"
 weight = 5
 [[bildergalerie]]
+bild = "/uploads/2020/03/09/AXA SK40-1.jpeg"
+headline = "AXA SK40"
+[[bildergalerie]]
+bild = "/uploads/2020/03/09/Bridgeport-Hardinge.jpeg"
+headline = "Bridgeport-Hardinge"
+[[bildergalerie]]
 bild = "/uploads/2020/03/09/Bridgeport-Hardinge2.jpeg"
 headline = "Bridgeport-Hardinge2"
 [[bildergalerie]]
