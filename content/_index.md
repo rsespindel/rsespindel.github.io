@@ -61,11 +61,6 @@ buttonbeschriftung = ""
 buttonlink = ""
 text = "Chiron Fz28 Sk50"
 [[slider]]
-bild = "/uploads/2020/03/09/slide_mt_cut_royal.jpg"
-buttonbeschriftung = ""
-buttonlink = ""
-text = "Spindel MT Cut Royal"
-[[slider]]
 bild = "/uploads/2020/03/11/stama_HSK63.jpg"
 buttonbeschriftung = ""
 buttonlink = ""
