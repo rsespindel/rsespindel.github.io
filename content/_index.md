@@ -51,7 +51,7 @@ buttonbeschriftung = ""
 buttonlink = ""
 text = "MT CUT Royal"
 [[slider]]
-bild = "/uploads/2020/03/09/img_2.jpg"
+bild = "/uploads/2020/03/11/kao_ming.jpg"
 buttonbeschriftung = ""
 buttonlink = ""
 text = " Kao Ming Sk50"
