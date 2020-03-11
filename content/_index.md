@@ -66,7 +66,7 @@ buttonbeschriftung = ""
 buttonlink = ""
 text = "Spindel MT Cut Royal"
 [[slider]]
-bild = "/uploads/2020/03/11/stama_hsk_63.jpg"
+bild = "/uploads/2020/03/11/stama_HSK63.jpg"
 buttonbeschriftung = ""
 buttonlink = ""
 text = "Spindel STAMA HSK 63"
