@@ -71,7 +71,7 @@ buttonbeschriftung = ""
 buttonlink = ""
 text = "Chiron Spindelservice"
 [[slider]]
-bild = "/uploads/2020/03/09/spindel_slide.jpg"
+bild = "/uploads/2020/03/11/spindeln_startseite.jpg"
 buttonbeschriftung = ""
 buttonlink = ""
 text = "SPINDELSERVICE UND REPARATUREN FÜR MOTOR - UND RIEMENSPINDELN"
