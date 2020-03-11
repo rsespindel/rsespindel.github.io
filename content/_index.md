@@ -56,7 +56,7 @@ buttonbeschriftung = ""
 buttonlink = ""
 text = " Kao Ming Sk50"
 [[slider]]
-bild = "/uploads/2020/03/09/img.jpg"
+bild = "/uploads/2020/03/11/chiron_fz28.jpg"
 buttonbeschriftung = ""
 buttonlink = ""
 text = "Chiron Fz28 Sk50"
