@@ -40,7 +40,7 @@ bild = "/uploads/2020/03/09/hurco.jpg"
 text = "Hurco-LCM Motorspindel"
 [[bildergalerie]]
 bild = "/uploads/2020/03/09/kao_ming.jpg"
-text = "KAO MING SK50"
+text = "STAMA HSK 73"
 [[bildergalerie]]
 bild = "/uploads/2020/03/09/chiron_fz15-hsk63.jpg"
 bilder = ["/uploads/2020/01/20/Cincinnati Sabre 750.jpg", "/uploads/2020/01/20/Hurco BMX-1.JPG", "/uploads/2020/01/20/Gloria SK40.JPG", "/uploads/2020/01/20/Chiron FZ18 Kuppelspindel.JPG", "/uploads/2020/01/20/Kunzmann.JPG"]
