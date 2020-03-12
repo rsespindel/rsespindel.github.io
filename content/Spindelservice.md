@@ -1,7 +1,7 @@
 +++
 einleitungstext = "<p>Wir verfügen über eine eigene Spindelwerkstatt, die Ihnen für eine schnelle und kostengünstige Reparatur Ihrer Hauptspindel zur Verfügung steht. Zahlreiche Spindeltypen von Chiron, Hurco, MTN und anderer Hersteller sind auf Lager oder im Austausch verfügbar. Selbstverständlich bieten wir Ihnen den dazugehörigen Ein- und Ausbauservice mit an. </p><p>Unsere 460te Spindeleinheit wurde erfolgreich instand gesetzt ! </p><p>Ein / Ausbauservice und Reparaturen für Motorspindeln der Fa.Kessler / Fa.Weiss  </p><ul><li><p>Reparaturen von Kessler Motorspindeln direkt bei der Fa. Kessler</p></li><li><p>Reparaturen von Weiss Motorspindeln direkt bei der Fa. Weiss </p></li></ul><p><strong>Service/Reparaturen für eine Vielzahl von Frässpindeln – Service für Motorspindeln</strong></p>"
-layout = "spindelservice"
 herstellerheadline = "IHRE HERSTELLER"
+layout = "spindelservice"
 spindelauswahlheader = "SPINDELAUSWAHL"
 text = "<p>Ein Auszug, aus den Maschinen die wir für Sie reparieren und warten:</p><ul><li><p>Hedelius Werkzeugmaschinen</p></li><li><p>Chiron Fräs- und Bearbeitungszentren</p></li><li><p>Hurco Fräsmaschinen</p></li><li><p>MT Cut</p></li><li><p>MTN</p></li><li><p>Deckel</p></li><li><p>Gildemeister</p></li><li><p>Studer</p></li><li><p>... und viele weitere</p></li></ul>"
 titel = "SPINDELSERVICE - SPINDELREPARATUR"
@@ -14,7 +14,7 @@ name = "Spindelreparatur / Spindelservice"
 weight = 2
 [reparaturablauf]
 headline = "So funktioniert die Reparatur"
-text = "<ol><li><p>Wareneingang</p></li><li><p>Hersteller und Modell</p></li><li><p>Technische Prüfung</p></li><li><p>wenn möglich Einzugskraft-Rundlauf-Funktion</p></li><li><p>Zerlegen</p></li><li><p>Reinigen</p></li><li><p>Vermessen</p></li><li><p>Schadensermittlung</p></li><li><p>Reparaturaufwand und Ersatzteile</p></li><li><p>Dauer</p></li><li><p>Kostenangebot</p></li><li><p>Liefertermin</p></li></ol><p><a href=\"Leadwell V40_ P.pdf\" title=\"\">Beispiel Befund</a></p>"
+text = "<ol><li><p>Wareneingang</p></li><li><p>Hersteller und Modell</p></li><li><p>Technische Prüfung</p></li><li><p>wenn möglich Einzugskraft-Rundlauf-Funktion</p></li><li><p>Zerlegen</p></li><li><p>Reinigen</p></li><li><p>Vermessen</p></li><li><p>Schadensermittlung</p></li><li><p>Reparaturaufwand und Ersatzteile</p></li><li><p>Dauer</p></li><li><p>Kostenangebot</p></li><li><p>Liefertermin</p></li></ol><p><a href=\"https://res.cloudinary.com/b-coding/image/fetch/q_100/https://rsespindel.github.io/uploads/2020/01/20/Leadwell V40_ P.pdf\" title=\"\">Beispiel Befund</a></p>"
 [[spindeln]]
 bild = "/uploads/2020/01/20/AXA SK40.jpeg"
 headline = "Alzmetall "
