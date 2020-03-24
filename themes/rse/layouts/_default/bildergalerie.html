@@ -17,13 +17,13 @@
           </div>
           {{end}}
         </div>
-        <div class="ui modal small" id="modal_imgg_home">
+        <div class="ui modal fullscreen" id="modal_imgg_home">
           <div class="content">
             <ul id="gal_imgg_home" class="imggalslider">
               {{ range $x,$img := .bildergalerie }}
               <li>
                 <img
-                  src="{{partial "imgUrl" (dict "img" $img.bild "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_500" )}} " />
+                  src="{{partial "imgUrl" (dict "img" $img.bild "params" "c_scale,h_800" )}} " />
                   
               </li>
               {{end}}
