@@ -13,7 +13,6 @@
   <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/36f80a6a-527c-46cd-bafa-53070bcc525e.css" />
   <link rel="stylesheet" href="/lib/semantic.min.css">
   <link rel="stylesheet" href="/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
   <script type="text/javascript" src="/lib/jquery.min.js"></script>
   <script type="text/javascript" src="/lib/cloudinary-core-shrinkwrap.min.js"></script>
 </head>
@@ -78,8 +77,8 @@
         });
       });
       $('.ui.embed').embed();
-      $('.sub-menu').each(function(idx,el){
-        $(el).css('top',$('header').height());
+      $('.sub-menu').each(function (idx, el) {
+        $(el).css('top', $('header').height());
       });
       $('#mntbt').click(function () {
         if ($('#headermenumobil').hasClass('mobvis')) {
@@ -94,14 +93,14 @@
 
       });
       $('.morebutton.detail').click(function () {
-        var target=$(this).attr('data-target');
-        if ($('#'+target).hasClass('small')){
-          $('#'+target).addClass('big');
-          $('#'+target).removeClass('small');
+        var target = $(this).attr('data-target');
+        if ($('#' + target).hasClass('small')) {
+          $('#' + target).addClass('big');
+          $('#' + target).removeClass('small');
           $(this).find('.txt').text('schliessen');
-        } else{
-          $('#'+target).addClass('small');
-          $('#'+target).removeClass('big');
+        } else {
+          $('#' + target).addClass('small');
+          $('#' + target).removeClass('big');
           $(this).find('.txt').text('öffnen');
         }
         if ($('#headermenu').hasClass('mobvis')) {
@@ -111,9 +110,9 @@
         }
       });
       $('.st').click(function () {
-        if ($(this).hasClass('min')){
+        if ($(this).hasClass('min')) {
           $(this).removeClass('min');
-        }else{
+        } else {
           $(this).addClass('min');
         }
       });
